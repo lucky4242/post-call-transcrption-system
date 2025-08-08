@@ -57,9 +57,9 @@ This repo demonstrates how to accept Twilio webhook events, download recordings,
 ### cp .env.example .env
 ### then edit .env with your values
 php artisan key:generate
-### php artisan migrate
-### php artisan storage:link
-### php artisan serve
+php artisan migrate
+php artisan storage:link
+ php artisan serve
 ### and run queue worker if you use queues:
 php artisan queue:work
 
